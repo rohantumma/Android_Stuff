@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:orientation="vertical"
+    tools:context=".ShowStudentRecordActivity">
+
+    <Spinner
+        android:id="@+id/spinner_class"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="26sp"
+        android:layout_marginLeft="80sp"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+
+    </Spinner>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </ScrollView>
+
+
+
+
+
+
+
+  <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:id="@+id/table_layout">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/table_row1"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/fname"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:text="First name"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/mname"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:text="Middle name"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/lname"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:text="Last name"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                      android:id="@+id/rno"
+                      android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:textColor="#000"
+                      android:text="Roll no"
+                    android:textStyle="bold"
+                      android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:text="Email Id"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+            </TableRow>
+
+            <View
+                android:layout_height="3dip"
+                android:layout_width="match_parent"
+                android:background="#ff0000"/>
+        </TableLayout>
+
+    </LinearLayout>-->
+
+</LinearLayout>

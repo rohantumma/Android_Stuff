@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background7"
+    tools:context=".FirstActivity">
+
+    <ImageButton
+        android:id="@+id/badmin"
+        android:layout_width="250dp"
+        android:layout_height="281dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/admin"
+        android:onClick="movetoLogin" />
+
+    <ImageButton
+        android:id="@+id/bstaff"
+        android:layout_width="250dp"
+        android:layout_height="285dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/staff"
+        android:onClick="movetoStaffLogin" />
+</RelativeLayout>

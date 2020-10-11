@@ -1,0 +1,4 @@
+#Thu Mar 21 15:45:17 IST 2019
+base.0=C\:\\Users\\Akshay\\AndroidStudioProjects\\StudentAttendance-20190302T153855Z-001\\StudentAttendance\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

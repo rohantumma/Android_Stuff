@@ -1,0 +1,4 @@
+#Tue Apr 23 20:33:24 IST 2019
+base.0=E\:\\kajal\\Company\\Vyomlabs\\final project\\StudentAttendance-20190302T153855Z-001\\StudentAttendance\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">StudentAttendanceSystem</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="Class">
+        <item>BEA</item>
+        <item>BEB</item>
+        <item>TEA</item>
+        <item>TEB</item>
+        <item>SEA</item>
+        <item>SEB</item>
+        <item>FE</item>
+    </string-array>
+
+    <string-array name="Subject">
+        <item>OST</item>
+        <item>WT</item>
+        <item>ICS</item>
+        <item>DWM</item>
+        <item>BDA</item>
+        <item>MIS</item>
+        <item>OST-PR</item>
+        <item>ICS-PR</item>
+        <item>WT-PR</item>
+    </string-array>
+
+    <string-array name="Time">
+        <item>9:00 am</item>
+        <item>10:00 am</item>
+        <item>11:00 am</item>
+        <item>11:30 am</item>
+        <item>12:30 pm</item>
+        <item>1:30 pm</item>
+        <item>2:10 pm</item>
+        <item>3:10 pm</item>
+        <item>4:10 pm</item>
+        <item>4:15 pm</item>
+        <item>5:15 pm</item>
+    </string-array>
+
+</resources>
